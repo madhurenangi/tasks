@@ -1,0 +1,17 @@
+
+.mainDiv{
+border-left:20px solid gray;
+
+position: relative;
+
+}
+.plus{
+	position: absolute;
+	left:-13px;
+	
+}
+.fdiv{
+	border:1px solid gray;
+	border-radius: 5px;
+	min-width: 600px
+}
