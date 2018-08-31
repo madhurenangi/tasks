@@ -34,3 +34,29 @@
             text: 'Delete',
             name: 'delete'      // do not change name
          }]
+
+         // place sort icons left of the text
+
+         
+table.dataTable thead .sorting_asc {
+  background: none;
+}
+table.dataTable thead .sorting_desc {
+  background: none;
+}
+table.dataTable thead .sorting {
+  background: none;
+}
+
+span.arrow-hack {
+    margin-left: 5px;
+}
+span.asc {
+  background: url("http://cdn.datatables.net/1.10.0/images/sort_asc.png") no-repeat center right;
+}
+span.desc {
+  background: url("http://cdn.datatables.net/1.10.0/images/sort_desc.png") no-repeat center right;
+}
+span.sort {
+  background: url("http://cdn.datatables.net/1.10.0/images/sort_both.png") no-repeat center right;
+}
